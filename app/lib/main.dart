@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       theme: ThemeData.dark(),
       debugShowCheckedModeBanner: true,
-      home: SnakeGamePage(),
+      home: const SnakeGamePage(),
     );
   }
 }
